@@ -1,0 +1,82 @@
+button{
+    width: 50px;
+    height: 50px;
+    background: repeating-linear-gradient(lightgreen, white)
+}
+#ncb{
+    background: repeating-linear-gradient(lightgreen, black)
+}
+#fcb{
+    background: repeating-linear-gradient(lightgreen, black)
+}
+.screen{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 25px;
+    color: white;
+}
+#firstnum-bunshi{
+    width: 25px;
+    height: 25px;
+}
+#firstnum-bunbo{
+    width: 25px;
+    height: 25px;
+}
+#bar{
+    font-size: 40px;
+    position: absolute;
+    top: 150px;
+}
+hr{
+    width: 25px;
+    position: absolute;
+}
+#operator-f{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    position: absolute;
+    top: 210px;
+    left: 40px;
+}
+#second{
+    position: absolute;
+    top: 191.5px;
+    left: 90px;
+}
+#secondnum-bunshi{
+    width: 25px;
+    height: 25px;
+}
+#secondnum-bunbo{
+    width: 25px;
+    height: 25px;
+}
+#equal_f{
+    position: absolute;
+    top: 205px;
+    left: 120px;
+}
+#result{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 25px;
+    color: white;
+    position: absolute;
+    top: 205px;
+    left: 180px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(lightgreen, white);
+    font-weight: bold;
+}
+body{
+    background: repeating-linear-gradient(315deg, #ff0000, #0000ff, #00ff00)
+}

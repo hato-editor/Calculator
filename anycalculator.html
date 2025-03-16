@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いろいろ計算機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>いろいろ計算機</h1>
+    <p>※nで普通の計算機、fで分数計算機</p>
+    <button id="ncb">n</button><button id="fcb">f</button><br><br>
+    <div id="normal-calculator">
+        <div class="screen"></div>
+        <button id="one">1</button><button id="two">2</button><button id="three">3</button><button id="division">/</button><br>
+        <button id="four">4</button><button id="five">5</button><button id="six">6</button><button id="multiplication">*</button><br>
+        <button id="seven">7</button><button id="eight">8</button><button id="nine">9</button><button id="minus">-</button><br>
+        <button id="dot">.</button><button id="zero">0</button><button id="equal">=</button><button id="plus">+</button>
+    </div>
+    <div id="fraction-calculator">
+        <input type="text" id="firstnum-bunshi"><hr><br><br><input type="text" id="firstnum-bunbo"><select name="オペレーターを選択" id="operator-f">
+            <option>+</option><option>-</option><option>*</option><option>/</option>
+        </select>
+        <div id="second"><input type="text" id="secondnum-bunshi"><hr><br><br><input type="text" id="secondnum-bunbo"></div>
+        <button id="equal_f">=</button>
+        <div id="result"></div>
+    </div>
+    <footer>
+        <p>機能追加要望などはこちらへ</p>
+        <address>hato.edit@gmail.com</address>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
